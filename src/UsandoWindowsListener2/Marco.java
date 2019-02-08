@@ -15,17 +15,18 @@ import javax.swing.JFrame;
  * @author bryan
  */
 class Marco extends JFrame {
+
     public Marco(String titulo) {
-     
+
         darTituloVentana(titulo);
         inicializar();
-       
+
         llamandoOyente();
     }
 
     private void llamandoOyente() {
         //llamando al oyente
-        M_Ventana oyente_ventana= new M_Ventana();
+        M_Ventana oyente_ventana = new M_Ventana();
         addWindowListener(oyente_ventana);
     }
 
@@ -33,7 +34,7 @@ class Marco extends JFrame {
         cofigurarVentana();
         asignarIconoVentana();
         setVisible(true);
-       // setDefaultCloseOperation(EXIT_ON_CLOSE);
+        // setDefaultCloseOperation(EXIT_ON_CLOSE);
     }
 
     public void cofigurarVentana() {

@@ -12,9 +12,8 @@ import java.awt.event.WindowEvent;
  *
  * @author bryan
  */
+public class M_Ventana extends WindowAdapter {
 
-public class M_Ventana extends WindowAdapter{
-    
     @Override
     public void windowIconified(WindowEvent e) {
         System.out.println("Ventana minimizada");

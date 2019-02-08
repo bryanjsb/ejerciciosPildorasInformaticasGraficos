@@ -9,4 +9,3 @@ public class Principal {
         marco1.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
 }
-

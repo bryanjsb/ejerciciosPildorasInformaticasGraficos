@@ -10,20 +10,22 @@ public class ProbarEventos {
 
     public static void main(String[] args) {
         miMarco marco1 = new miMarco("Probando eventos");
-        
+
     }
 }
 
 class miMarco extends JFrame {
-private LaminaBotones botones;
+
+    private LaminaBotones botones;
+
     public miMarco(String titulo) {
-        
-        botones= new LaminaBotones();
+
+        botones = new LaminaBotones();
         add(botones);
-        
+
         darTituloVentana(titulo);
         inicializar();
-       
+
     }
 
     private void inicializar() {

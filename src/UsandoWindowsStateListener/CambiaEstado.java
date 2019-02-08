@@ -13,26 +13,20 @@ import java.awt.event.WindowStateListener;
  *
  * @author bryan
  */
-public class CambiaEstado implements WindowStateListener{
+public class CambiaEstado implements WindowStateListener {
 
     @Override
     public void windowStateChanged(WindowEvent e) {
-            System.out.println("la ventana ha cambiado de estado");
-            
-            if(e.getNewState()==Frame.NORMAL){
+        System.out.println("la ventana ha cambiado de estado");
+
+        if (e.getNewState() == Frame.NORMAL) {
             System.out.println("la ventana esta en estdo normal");
-            }
-            
-            else if(e.getNewState()==Frame.MAXIMIZED_BOTH){
+        } else if (e.getNewState() == Frame.MAXIMIZED_BOTH) {
             System.out.println("la ventana esta maximizada");
-            }
-             
-            else  if(e.getNewState()==Frame.ICONIFIED){
+        } else if (e.getNewState() == Frame.ICONIFIED) {
             System.out.println("la ventana esta minimizado");
-            }
-              
-       
-            
+        }
+
     }
-    
+
 }

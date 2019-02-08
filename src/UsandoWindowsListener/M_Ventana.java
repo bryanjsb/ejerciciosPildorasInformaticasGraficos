@@ -17,7 +17,7 @@ public class M_Ventana implements WindowListener {
     @Override
     public void windowOpened(WindowEvent e) {
 
-     System.out.println("Ventana abirta");
+        System.out.println("Ventana abirta");
     }
 
     @Override
@@ -28,7 +28,7 @@ public class M_Ventana implements WindowListener {
 
     @Override
     public void windowClosed(WindowEvent e) {
-          System.out.println("Ventana ha sido cerrada");
+        System.out.println("Ventana ha sido cerrada");
     }
 
     // metdo se usa cuando la ventana se minimiza
@@ -40,7 +40,7 @@ public class M_Ventana implements WindowListener {
     @Override
     public void windowDeiconified(WindowEvent e) {
 
-     System.out.println("Ventana restaurada");
+        System.out.println("Ventana restaurada");
     }
 
     @Override
@@ -51,7 +51,7 @@ public class M_Ventana implements WindowListener {
     @Override
     public void windowDeactivated(WindowEvent e) {
 
-     System.out.println("Ventana desactivada");
+        System.out.println("Ventana desactivada");
     }
 
 }
